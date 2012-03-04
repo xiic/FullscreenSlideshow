@@ -21,6 +21,8 @@
 		FF3B8C501503BD0700F11287 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8C4F1503BD0700F11287 /* second@2x.png */; };
 		FF3B8C531503BD0700F11287 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8C511503BD0700F11287 /* FirstViewController.xib */; };
 		FF3B8C561503BD0700F11287 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8C541503BD0700F11287 /* SecondViewController.xib */; };
+		FF3B8C5E1503BD6C00F11287 /* X-office-presentation-57.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8C5D1503BD6C00F11287 /* X-office-presentation-57.png */; };
+		FF3B8C601503BD7000F11287 /* X-office-presentation-114.png in Resources */ = {isa = PBXBuildFile; fileRef = FF3B8C5F1503BD7000F11287 /* X-office-presentation-114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,22 +30,25 @@
 		FF3B8C311503BD0700F11287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF3B8C331503BD0700F11287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FF3B8C351503BD0700F11287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FF3B8C391503BD0700F11287 /* FullscreenSlideshow-Info.plist */ = {isa = PBXFileReference; path = "FullscreenSlideshow-Info.plist"; sourceTree = "<group>"; };
+		FF3B8C391503BD0700F11287 /* FullscreenSlideshow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FullscreenSlideshow-Info.plist"; sourceTree = "<group>"; };
 		FF3B8C3B1503BD0700F11287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF3B8C3D1503BD0700F11287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF3B8C3F1503BD0700F11287 /* FullscreenSlideshow-Prefix.pch */ = {isa = PBXFileReference; path = "FullscreenSlideshow-Prefix.pch"; sourceTree = "<group>"; };
-		FF3B8C401503BD0700F11287 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3B8C3F1503BD0700F11287 /* FullscreenSlideshow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FullscreenSlideshow-Prefix.pch"; sourceTree = "<group>"; };
+		FF3B8C401503BD0700F11287 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF3B8C411503BD0700F11287 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF3B8C431503BD0700F11287 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		FF3B8C431503BD0700F11287 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		FF3B8C441503BD0700F11287 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		FF3B8C461503BD0700F11287 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		FF3B8C481503BD0700F11287 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		FF3B8C4A1503BD0700F11287 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		FF3B8C4A1503BD0700F11287 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		FF3B8C4B1503BD0700F11287 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FF3B8C4D1503BD0700F11287 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		FF3B8C4F1503BD0700F11287 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		FF3B8C521503BD0700F11287 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
 		FF3B8C551503BD0700F11287 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		FF3B8C5C1503BD3700F11287 /* FullscreenSlideshow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FullscreenSlideshow.entitlements; sourceTree = "<group>"; };
+		FF3B8C5D1503BD6C00F11287 /* X-office-presentation-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X-office-presentation-57.png"; sourceTree = "<group>"; };
+		FF3B8C5F1503BD7000F11287 /* X-office-presentation-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "X-office-presentation-114.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,8 @@
 		FF3B8C221503BD0700F11287 = {
 			isa = PBXGroup;
 			children = (
+				FF3B8C5F1503BD7000F11287 /* X-office-presentation-114.png */,
+				FF3B8C5D1503BD6C00F11287 /* X-office-presentation-57.png */,
 				FF3B8C371503BD0700F11287 /* FullscreenSlideshow */,
 				FF3B8C301503BD0700F11287 /* Frameworks */,
 				FF3B8C2E1503BD0700F11287 /* Products */,
@@ -90,6 +97,7 @@
 		FF3B8C371503BD0700F11287 /* FullscreenSlideshow */ = {
 			isa = PBXGroup;
 			children = (
+				FF3B8C5C1503BD3700F11287 /* FullscreenSlideshow.entitlements */,
 				FF3B8C401503BD0700F11287 /* AppDelegate.h */,
 				FF3B8C411503BD0700F11287 /* AppDelegate.m */,
 				FF3B8C431503BD0700F11287 /* FirstViewController.h */,
@@ -175,6 +183,8 @@
 				FF3B8C501503BD0700F11287 /* second@2x.png in Resources */,
 				FF3B8C531503BD0700F11287 /* FirstViewController.xib in Resources */,
 				FF3B8C561503BD0700F11287 /* SecondViewController.xib in Resources */,
+				FF3B8C5E1503BD6C00F11287 /* X-office-presentation-57.png in Resources */,
+				FF3B8C601503BD7000F11287 /* X-office-presentation-114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +280,13 @@
 		FF3B8C5A1503BD0700F11287 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FullscreenSlideshow/FullscreenSlideshow.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Fake Code Sign";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FullscreenSlideshow/FullscreenSlideshow-Prefix.pch";
 				INFOPLIST_FILE = "FullscreenSlideshow/FullscreenSlideshow-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -281,10 +294,13 @@
 		FF3B8C5B1503BD0700F11287 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FullscreenSlideshow/FullscreenSlideshow.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Fake Code Sign";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FullscreenSlideshow/FullscreenSlideshow-Prefix.pch";
 				INFOPLIST_FILE = "FullscreenSlideshow/FullscreenSlideshow-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

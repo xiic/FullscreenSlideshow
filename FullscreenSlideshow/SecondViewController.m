@@ -2,7 +2,7 @@
 //  SecondViewController.m
 //  FullscreenSlideshow
 //
-//  Created by Hinrich Harms on 04.03.12.
+//  Created by Calico on 04.03.12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -14,7 +14,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
+        self.title = NSLocalizedString(@"Settings", @"Settings");
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;

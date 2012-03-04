@@ -2,7 +2,7 @@
 //  FirstViewController.m
 //  FullscreenSlideshow
 //
-//  Created by Hinrich Harms on 04.03.12.
+//  Created by Calico on 04.03.12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -14,7 +14,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
+        self.title = NSLocalizedString(@"Slideshow", @"Slideshow");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;
@@ -65,6 +65,26 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+-(IBAction)selectExitingPicture
+{
+	if([UIImagePickerController isSourceTypeAvailable:
+        UIImagePickerControllerSourceTypePhotoLibrary])
+	{
+		UIImagePickerController *picker= [[UIImagePickerController alloc]init];
+		picker.delegate = self;
+		picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+		[self presentModalViewController:picker animated:YES];
+	}
+}
+
+-(void)imagePickerController:(UIImagePickerController *)picker
+      didFinishPickingImage : (UIImage *)image
+                 editingInfo:(NSDictionary *)editingInfo
+{
+	imageView.image = image;
+	[picker dismissModalViewControllerAnimated:YES];
 }
 
 @end
